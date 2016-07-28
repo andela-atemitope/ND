@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+body {
+  width: 100%;
+  text-align: center;
+  font-family: Lato; }
+  body img {
+    width: 47%; }
+  body h3 {
+    font-weight: 200;
+    font-size: 2em;
+    letter-spacing: 2; }
+  body input {
+    width: 23%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box; }
+    @media screen and (max-width: 480px) {
+      body input {
+        width: 100%; } }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+      body input {
+        width: 70%; } }
+  body button {
+    cursor: pointer;
+    padding: 12px 20px;
+    color: white;
+    font-weight: 200;
+    border: none;
+    width: 15%;
+    background-color: #23455d;
+    font-size: .8em;
+    text-transform: uppercase; }
+    body button:hover {
+      background-color: #23455f; }
+    @media screen and (max-width: 480px) {
+      body button {
+        width: 70%; } }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+      body button {
+        width: 30%; } }
+
+/*# sourceMappingURL=main.css.map */
